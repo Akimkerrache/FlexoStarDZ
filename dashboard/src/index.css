@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Inter", "Segoe UI", "Noto Sans Arabic", "Tahoma", system-ui, -apple-system,
+    sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  color-scheme: light;
+}
+body {
+  margin: 0;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 2px;
+}
+/* Keep numbers, codes and emails left-to-right inside RTL pages */
+.ltr-text {
+  direction: ltr;
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
