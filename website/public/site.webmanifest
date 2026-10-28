@@ -1,0 +1,9 @@
+{
+  "name": "FlexoStar Group Algérie",
+  "short_name": "FlexoStar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b3d91",
+  "icons": [{ "src": "/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }]
+}
